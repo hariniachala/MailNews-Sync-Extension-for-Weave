@@ -1,0 +1,10 @@
+content mailnews-sync chrome/content/
+locale mailnews-sync en-US locale/en-US/
+
+# Seamonkey only
+overlay chrome://weave/content/preferences/fx-prefs.xul chrome://mailnews-sync/content/preferences/sm-mailnews-prefs.xul
+overlay chrome://navigator/content/navigator.xul chrome://weave/content/sync.xul
+overlay chrome://navigator/content/navigator.xul chrome://mailnews-sync/content/sync-mailnews.xul
+overlay chrome://messenger/content/messenger.xul chrome://weave/content/sync.xul
+
+resource mailnews-sync modules/

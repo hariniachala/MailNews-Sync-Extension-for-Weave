@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<overlay id="mailnewsPrefsOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+         xmlns:html="http://www.w3.org/1999/xhtml">
+
+  <preferences>
+        <preference id="engine.mailnews" name="extensions.weave.engine.mailnews" type="bool"/>
+      </preferences>
+    <vbox  id="syncPrefCheckboxes">
+            <checkbox id="syncAddressBoook"
+                      label="MailNews"
+                      preference="engine.mailnews"
+                      accesskey="N"/>
+        </vbox>
+</overlay>

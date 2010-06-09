@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{9250a89f-c4eb-468e-ae51-d70e106e4464}</em:id>
+    <em:type>2</em:type>
+    <em:name>Weave MailNews Extension</em:name>
+    <em:version>0.0.1</em:version>
+    <em:creator>Harini Achala Sirisena</em:creator>
+    <em:contributor/>
+    <em:description>New mailnews sync engine for Seamonkey and Thuderbird. Requires Firefox Sync extension.</em:description>
+    <em:targetApplication>
+      <Description>
+        <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+        <em:minVersion>2.0a3</em:minVersion>
+        <em:maxVersion>2.1a2</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  <em:homepageURL/><em:optionsURL/><em:aboutURL/><em:iconURL/><em:updateURL/><em:updateKey/><em:hidden/></Description>
+</RDF>
